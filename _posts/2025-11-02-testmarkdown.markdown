@@ -21,6 +21,8 @@ public static void main(String[] args){
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
+
+
 这是一个图片测试：
 
-![](./../assets/b_b1b8d849f8c6d83c08d1fa8532fe03c1.jpg)
+![](/assets/b_b1b8d849f8c6d83c08d1fa8532fe03c1.jpg)
