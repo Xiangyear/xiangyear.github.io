@@ -1,8 +1,9 @@
 ```
 layout: post
 title: "Incipit vita nova"
-date: 2025-11-01 22:18:00 +0800
+date: 2025-11-01 10:00:00 +0800
 categories: [life]
+
 
 ```
 
