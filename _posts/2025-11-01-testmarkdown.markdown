@@ -24,9 +24,4 @@ $$
 
 这是一个图片测试：
 
-注意比对两者，
-
-![](./{{ '/assets/b_b1b8d849f8c6d83c08d1fa8532fe03c1.jpg' | relative_url }})
-
-![](assets/b_b1b8d849f8c6d83c08d1fa8532fe03c1.jpg)
-
+![](https://raw.githubusercontent.com/Xiangyear/blog-images/main/img/b_b1b8d849f8c6d83c08d1fa8532fe03c1.jpg)
