@@ -6,4 +6,3 @@ for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do (
 git add .
 git commit -m "%datestr%"
 git push origin main
-pause
