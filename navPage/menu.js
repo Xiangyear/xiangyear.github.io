@@ -39,7 +39,6 @@ const menuData = [
       { name: "Xiangyear Blog", url: "https://xiangyear.github.io/", type: "个人博客" },
       { name: "Xiangyear Bilibili",url:"https://space.bilibili.com/357088410",type:"个人B站"},
       { name: "Xiangyear Github",url:"https://github.com/Xiangyear",type:"个人仓库"},
-      { name: "Xiangyear"}
     ] 
   },
   { 
