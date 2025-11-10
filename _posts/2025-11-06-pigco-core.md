@@ -1,6 +1,6 @@
 ---
 felayout: post
-title:  "pigco-core"
+title:  "使用pigco-core在github上配置图床"
 date:   2025-11-06 8:23:00 +0800
 categories: Computer Science
 ---
