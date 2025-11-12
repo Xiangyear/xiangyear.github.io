@@ -27,6 +27,11 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
 }
+header.site-header,
+footer.site-footer {
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
 /* 移动端优化 */
 @media (max-width: 768px) {
