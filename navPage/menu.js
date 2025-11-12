@@ -108,7 +108,8 @@ const menuData = [
       { name:"魔都",url:"https://cnmods.net/web/",type:"跑团"},
       { name:"魔都wiki",url:"https://wiki.cnmods.org/start",type:"跑团"},
       { name:"IT之家",url: "https://www.ithome.com",type: "中文科技新闻与资讯"},
-      { name:"tooplate",url:"https://www.tooplate.com/",type:"模板网站"}
+      { name:"tooplate",url:"https://www.tooplate.com/",type:"模板网站"},
+      { name:"看雪论坛",url:"https://bbs.kanxue.com/",type:"安全社区"}
     ]
   }
 ];

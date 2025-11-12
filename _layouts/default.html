@@ -3,18 +3,22 @@
 
   {%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}  <!-- 导航栏 -->
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content" aria-label="Content">
 
-    {%- include footer.html -%}
+    <!-- 背景层跟随正文高度 -->
+    <div class="content-bg"></div>
 
-  </body>
+    <div class="wrapper">
+      {{ content }}
+    </div>
+    
+  </main>
 
+  {%- include footer.html -%}  <!-- 脚注 -->
+
+</body>
 </html>

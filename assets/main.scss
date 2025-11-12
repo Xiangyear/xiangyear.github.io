@@ -1,5 +1,36 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 
 @import "minima";
+
+/* ---------------------------
+   全局透明背景和固定背景图片
+--------------------------- */
+
+/* 背景独立于内容，固定在屏幕 */
+html {
+  background: url('https://raw.githubusercontent.com/Xiangyear/blog-images/main/img/f21a2f7c96686edaa0d17de8401effe1.png') no-repeat center center fixed;
+  background-size: cover;  /* 自适应填充屏幕 */
+}
+
+/* 保证 body 不覆盖 html 背景 */
+body {
+  background-color: transparent;
+}
+
+/* 正文容器半透明毛玻璃效果，增强可读性 */
+.page-content .wrapper {
+  position: relative;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  html {
+    background-attachment: scroll; /* 避免 iOS/Android fixed bug */
+  }
+}
