@@ -8,9 +8,8 @@
    全局透明背景和固定背景图片
 --------------------------- */
 
-/* 背景独立于内容，固定在屏幕 */
 html {
-  background: url('https://raw.githubusercontent.com/Xiangyear/blog-images/main/img/f21a2f7c96686edaa0d17de8401effe1.png') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/Xiangyear/blog-images/main/img/7FCEF8302769B71BA42716707166110E.jpg') no-repeat center center fixed;
   background-size: cover;  /* 自适应填充屏幕 */
 }
 
@@ -19,7 +18,6 @@ body {
   background-color: transparent;
 }
 
-/* 正文容器半透明毛玻璃效果，增强可读性 */
 .page-content .wrapper {
   position: relative;
   backdrop-filter: blur(6px);
@@ -33,9 +31,8 @@ footer.site-footer {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* 移动端优化 */
 @media (max-width: 768px) {
   html {
-    background-attachment: scroll; /* 避免 iOS/Android fixed bug */
+    background-attachment: scroll;
   }
 }
