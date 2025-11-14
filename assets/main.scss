@@ -4,16 +4,11 @@
 
 @import "minima";
 
-/* ---------------------------
-   全局透明背景和固定背景图片
---------------------------- */
-
 html {
   background: url('https://raw.githubusercontent.com/Xiangyear/blog-images/main/img/7FCEF8302769B71BA42716707166110E.jpg') no-repeat center center fixed;
-  background-size: cover;  /* 自适应填充屏幕 */
+  background-size: cover;
 }
 
-/* 保证 body 不覆盖 html 背景 */
 body {
   background-color: transparent;
 }
